@@ -1,5 +1,6 @@
 --create view order summary
 
+
 CREATE VIEW order_summary AS
 SELECT 
     o.OrderID,
