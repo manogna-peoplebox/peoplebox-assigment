@@ -6,6 +6,7 @@ CREATE TABLE Customers (
     Phone VARCHAR(15),
     Address TEXT
 );
+
 CREATE TABLE Categories (
     CategoryID INT AUTO_INCREMENT PRIMARY KEY,
     CategoryName VARCHAR(100) UNIQUE NOT NULL
