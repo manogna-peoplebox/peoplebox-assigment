@@ -6,6 +6,7 @@ INSERT INTO Categories (CategoryName) VALUES
 ('Cameras');
 
 
+
 INSERT INTO Customers (FirstName, LastName, Email, Phone, Address) VALUES
 ('Ram', 'Sharma', 'ram.sharma@gmail.com', '9876543210', ' Mumbai, Maharashtra'),
 ('Sita', 'Devi', 'sita.devi@gmail.com', '8765432109', 'Chennai, Tamil Nadu'),
