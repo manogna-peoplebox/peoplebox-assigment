@@ -44,18 +44,16 @@ class OrderService:
         }
         return receipt
 
-# Predefined stock
 stock = {
-    'apple': {'price': 2.0, 'quantity': 50},
-    'banana': {'price': 1.0, 'quantity': 30},
-    'orange': {'price': 1.5, 'quantity': 20},
-    'grape': {'price': 3.0, 'quantity': 15}
+    'notebook': {'price': 5.0, 'quantity': 100},
+    'pen': {'price': 1.0, 'quantity': 200},
+    'stapler': {'price': 8.0, 'quantity': 50},
+    'marker': {'price': 2.5, 'quantity': 150},
+    'scissors': {'price': 10.0, 'quantity': 30}
 }
 
-# Initialize the order service
 order_service = OrderService(stock)
 
-# User input
 while True:
     print("\nAvailable stock:")
     for item, details in stock.items():
